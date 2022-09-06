@@ -14,6 +14,8 @@ contentContainerStyle : 모든 하위 보기를 래핑하는 스크롤 보기 �
 horizontal : ScrollView 안에 View 들을 (horizontal)가로로 정렬한다.\
 pagingEnabled : true인 경우 스크롤할 때 스크롤 보기가 스크롤 보기 크기의 배수에서 멈춥니다. 수평 페이지 매김에 사용할 수 있습니다.\
 showsHorizontalScrollIndicator : pagingEnabled 될때 true 인경우 가로 스크롤 표시기를 표시합니다.\
-const { width: SCREEN_WIDTH } = Dimensions.get("window") : 디바이스의 width를 찾는다.\ 
+const { width: SCREEN_WIDTH } = Dimensions.get("window") : 디바이스의 width를 찾는다.
 
+### `Location`
 
+import { StatusBar } from 'expo-status-bar'\
