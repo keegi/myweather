@@ -18,4 +18,9 @@ const { width: SCREEN_WIDTH } = Dimensions.get("window") : 디바이스의 width
 
 ### `Location`
 
-import { StatusBar } from 'expo-status-bar'\
+유저의 위치를 받아오기 위한 API\
+https://docs.expo.dev/versions/v46.0.0/sdk/location/ \
+Teminal : expo install expo-location 설치.
+
+import * as Location from "expo-location"; \
+location => https://docs.expo.dev/versions/v46.0.0/sdk/location/ 참조. \
